@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+.container{
+    height: 100px;
+    width: 100vw;
+    background-color: red;
+    box-shadow: 5px 5px 5px black;
+    font-weight: 900;
+    font-size: large;
+    display: flex;
+    gap: 30%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.port{
+    color: aquamarine;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 4px black;
+}
+.navbar{
+    text-shadow: 4px 4px 4px black;
+    font-size: 1.7rem;
+    gap: 10px;
+}
+.navbar,a:hover{
+    color: rgb(237, 226, 16);
+
+}
+img{
+    position: relative;
+    left: 35%;
+    margin-top: 10%;
+    text-shadow: 6px 6px 6px rgb(16, 15, 15);
+    background-color: yellow;
+    border-radius: 10px;
+    position: fixed;
+}
+button{
+    margin-top: 30%;
+    
+    margin-left:460px;
+    font-size: 5.6rem;
+    cursor: pointer;
+    border-radius: 10px;
+    color: green;
+
+    text-shadow: 5px 5px 5px black;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 10px black;
+}
+button:hover{
+    color: rgb(15, 166, 216);
+    background-color: hotpink;
+}
